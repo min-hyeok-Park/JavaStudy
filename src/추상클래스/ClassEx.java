@@ -1,4 +1,4 @@
-package Ãß»óÅ¬·¡½º;
+package ì¶”ìƒí´ë˜ìŠ¤;
 
 public class ClassEx extends AbstractClassEx {
 

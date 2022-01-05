@@ -1,4 +1,4 @@
-package ÀÎÅÍÆäÀÌ½º;
+package ì¸í„°í˜ì´ìŠ¤;
 
 public class ToyRobot implements Toy {
 

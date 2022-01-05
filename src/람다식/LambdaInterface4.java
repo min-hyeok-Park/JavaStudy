@@ -1,4 +1,4 @@
-package ¶÷´Ù½Ä;
+package ëŒë‹¤ì‹;
 
 public interface LambdaInterface4 {
 	

@@ -1,32 +1,32 @@
-package ¶÷´Ù½Ä;
+package ëŒë‹¤ì‹;
 
 public class MainClass {
 
 	public static void main(String[] args) {
 		
-		// ¸Å°³º¯¼ö¿Í ½ÇÇà¹®¸¸À¸·Î ÀÛ¼ºÇÑ´Ù.(Á¢±ÙÀÚ, ¹İÈ¯Çü, return Å°¿öµå »ı·«)
+		// ë§¤ê°œë³€ìˆ˜ì™€ ì‹¤í–‰ë¬¸ë§Œìœ¼ë¡œ ì‘ì„±í•œë‹¤.(ì ‘ê·¼ì, ë°˜í™˜í˜•, return í‚¤ì›Œë“œ ìƒëµ)
 		LambdaInterface1 li1 = (String s1, String s2, String s3) -> { System.out.println(s1 + " " + s2 + " " + s3); };
 		li1.method("Hello", "java", "World");
 		
 		System.out.println();
 		
-		// ¸Å°³º¯¼ö°¡ 1°³ÀÌ°Å³ª Å¸ÀÔÀÌ °°À» ¶§, Å¸ÀÔÀ» »ı·«ÇÒ ¼ö ÀÖ´Ù.
+		// ë§¤ê°œë³€ìˆ˜ê°€ 1ê°œì´ê±°ë‚˜ íƒ€ì…ì´ ê°™ì„ ë•Œ, íƒ€ì…ì„ ìƒëµí•  ìˆ˜ ìˆë‹¤.
 		LambdaInterface2 li2 = (s1) -> { System.out.println(s1); };
 		li2.method("Hello");
 		
-		// ½ÇÇà¹®ÀÌ 1°³ÀÏ ¶§, '{}'¸¦ »ı·«ÇÒ ¼ö ÀÖ´Ù.
+		// ì‹¤í–‰ë¬¸ì´ 1ê°œì¼ ë•Œ, '{}'ë¥¼ ìƒëµí•  ìˆ˜ ìˆë‹¤.
 		LambdaInterface2 li3 = (s1) -> System.out.println(s1);
 		li3.method("Hello");
 		
-		// ¸Å°³º¯¼ö¿Í ½ÇÇà¹®ÀÌ 1°³ÀÏ ¶§, '()'¿Í '{}'¸¦ »ı·«ÇÒ ¼ö ÀÖ´Ù.
+		// ë§¤ê°œë³€ìˆ˜ì™€ ì‹¤í–‰ë¬¸ì´ 1ê°œì¼ ë•Œ, '()'ì™€ '{}'ë¥¼ ìƒëµí•  ìˆ˜ ìˆë‹¤.
 		LambdaInterface2 li4 = s1 -> System.out.println(s1);
 		li4.method("Hello");
 		
-		// ¸Å°³º¯¼ö°¡ ¾øÀ»¶§, '()'¸¸ ÀÛ¼ºÇÑ´Ù.		
+		// ë§¤ê°œë³€ìˆ˜ê°€ ì—†ì„ë•Œ, '()'ë§Œ ì‘ì„±í•œë‹¤.		
 		LambdaInterface3 li5 = () -> System.out.println("no parameter");
 		li5.method();
 		
-		// ¹İÈ¯°ªÀÌ ÀÖ´Â °æ¿ì
+		// ë°˜í™˜ê°’ì´ ìˆëŠ” ê²½ìš°
 		LambdaInterface4 li6 = (x, y) -> {
 			int result = x + y;
 			return result;

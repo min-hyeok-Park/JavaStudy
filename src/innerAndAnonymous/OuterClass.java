@@ -24,7 +24,7 @@ public class OuterClass {
 	static class SInnerClass {
 		
 		int num = 1000;
-		// static Å¬·¡½º´Â ¿ÜºÎ Å¬·¡½º ¸â¹ö¿¡ Á¢±ÙÇÒ ¼ö ¾ø´Ù.
+		// static í´ë˜ìŠ¤ëŠ” ì™¸ë¶€ í´ë˜ìŠ¤ ë©¤ë²„ì— ì ‘ê·¼í•  ìˆ˜ ì—†ë‹¤.
 		// String str3 = str1; 
 		String str3 = str11;
 		

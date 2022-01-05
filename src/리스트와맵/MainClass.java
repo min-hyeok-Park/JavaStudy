@@ -1,4 +1,4 @@
-package ¸®½ºÆ®¿Í¸Ê;
+package ë¦¬ìŠ¤íŠ¸ì™€ë§µ;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,49 +7,49 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
-		// ArrayList °´Ã¼ »ı¼º
+		// ArrayList ê°ì²´ ìƒì„±
 		ArrayList<String> list = new ArrayList<String>();
 		
 		System.out.println("list.size : " + list.size());
 		
-		// µ¥ÀÌÅÍ Ãß°¡
+		// ë°ì´í„° ì¶”ê°€
 		list.add("Hello");
 		list.add("Java");
 		list.add("World");
 		System.out.println("list.size : " + list.size());
 		System.out.println("list : " + list);
 		
-		list.add(2, "Programing");	// Ãß°¡
+		list.add(2, "Programing");	// ì¶”ê°€
 		System.out.println("list : " + list);
 		
-		list.set(1, "C");			// º¯°æ
+		list.set(1, "C");			// ë³€ê²½
 		System.out.println("list : " + list);
 		
-		// µ¥ÀÌÅÍ ÃßÃâ
+		// ë°ì´í„° ì¶”ì¶œ
 		String str = list.get(2);
 		System.out.println("list.get(2) : " + str);
 		System.out.println("list : " + list);
 		
-		// µ¥ÀÌÅÍ Á¦°Å
+		// ë°ì´í„° ì œê±°
 		str = list.remove(2);
 		System.out.println("list.remove(2) : " + str);
 		System.out.println("list : " + list);
 		
-		// µ¥ÀÌÅÍ ÀüÃ¼ Á¦°Å
+		// ë°ì´í„° ì „ì²´ ì œê±°
 		list.clear();
 		System.out.println("list : " + list);
 		
-		// µ¥ÀÌÅÍ À¯¹«
+		// ë°ì´í„° ìœ ë¬´
 		boolean b = list.isEmpty();
 		System.out.println("list.isEmpty() : " + b);
 		
 		System.out.println(" ==================================== ");
 		
-		// HashMap °´Ã¼ »ı¼º
+		// HashMap ê°ì²´ ìƒì„±
 		HashMap<Integer, String> map = new HashMap<Integer, String>();
 		System.out.println("map.size() : " + map.size());
 		
-		// µ¥ÀÌÅÍ Ãß°¡
+		// ë°ì´í„° ì¶”ê°€
 		map.put(5, "Hello");
 		map.put(6, "Java");
 		map.put(7, "World");
@@ -59,30 +59,30 @@ public class MainClass {
 		map.put(8, "!!");
 		System.out.println("map : " + map);
 		
-		// µ¥ÀÌÅÍ ±³Ã¼
+		// ë°ì´í„° êµì²´
 		map.put(6, "C");
 		System.out.println("map : " + map);
 		
-		// µ¥ÀÌÅÍ ÃßÃâ
+		// ë°ì´í„° ì¶”ì¶œ
 		str = map.get(5);
 		System.out.println("map.get(5) : " + str);
 		
-		// µ¥ÀÌÅÍ Á¦°Å
+		// ë°ì´í„° ì œê±°
 		map.remove(8);
 		System.out.println("map : " + map);
 		
-		// Æ¯Á¤ µ¥ÀÌÅÍ Æ÷ÇÔ À¯¹«
+		// íŠ¹ì • ë°ì´í„° í¬í•¨ ìœ ë¬´
 		b = map.containsKey(7);
 		System.out.println("map.containsKey(7) : " + b);
 		
 		b = map.containsValue("World");
 		System.out.println("map.containsValue(\"World\") : " + b);
 		
-		// µ¥ÀÌÅÍ ÀüÃ¼ Á¦°Å
+		// ë°ì´í„° ì „ì²´ ì œê±°
 		map.clear();
 		System.out.println("map : " + map);
 		
-		// µ¥ÀÌÅÍ À¯¹«
+		// ë°ì´í„° ìœ ë¬´
 		b = map.isEmpty();
 		System.out.println("map.isEmpty() : " + b);
 	}

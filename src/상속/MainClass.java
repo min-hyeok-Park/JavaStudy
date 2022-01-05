@@ -1,5 +1,4 @@
-package »ó¼Ó;
-
+package ìƒì†;
 public class MainClass {
 
 	public static void main(String[] args) {

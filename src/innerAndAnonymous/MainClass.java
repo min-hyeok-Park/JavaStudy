@@ -10,21 +10,21 @@ public class MainClass {
 		
 		System.out.println();
 		
-		// ¸â¹ö inner Å¬·¡½º
+		// ë©¤ë²„ inner í´ë˜ìŠ¤
 		OuterClass.InnerClass in = oc.new InnerClass();
 		System.out.println("in.num : " + in.num);
 		System.out.println("in.str2 : " + in.str2);
 		
 		System.out.println();
 		
-		// static inner Å¬·¡½º
+		// static inner í´ë˜ìŠ¤
 		OuterClass.SInnerClass si = new OuterClass.SInnerClass();
 		System.out.println("si.num : " + si.num);
 		System.out.println("si.str3 : " + si.str3);
 		
 		System.out.println();
 		
-		// ÀÍ¸í(anonymous) Å¬·¡½º
+		// ìµëª…(anonymous) í´ë˜ìŠ¤
 		new AnonymousClass() {
 			
 			@Override
